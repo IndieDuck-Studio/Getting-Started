@@ -141,11 +141,15 @@ TODO: Document the build and deployment process for the project. Include steps, 
 ### Testing and Quality Assurance
 TODO: Explain the testing approach followed by the team, including unit testing, integration testing, and any additional quality assurance measures.<br>
 
+### Project Management System
+To facilitate task management and streamline the development workflow, we utilizes the web application Trello. Tool allows to effectively organize tasks, track progress, and collaborate.<br>
+[Trello Workspace Link](https://trello.com/invite/indieduckstudio/ATTI57cc8348419549c5f6bafdf090390478888C2A96)
+
 ### Maintenance and Support
 TODO: Provide guidelines for maintaining the project, handling bug reports, and addressing support requests.<br>
 
 ### Version Control
-Explain the Git workflow used by the team, including branch naming conventions, commit message guidelines, and repository management.<br>
+TODO: Explain the Git workflow used by the team, including branch naming conventions, commit message guidelines, and repository management.<br>
 
 ### Conclusion
 In conclusion, IndieDuck Studio is a dynamic and creative game development team passionate about creating unique and captivating gaming experiences. They utilize the Unity Engine and Unity API for their projects and follow the coding conventions and design principles outlined in the Microsoft C# Documentation.<br>
