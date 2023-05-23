@@ -133,7 +133,8 @@ A/B/C - Every level contains stuffs related to particular topic:<br>
 ### Dependencies and Third-Party Libraries
 * > UniversalRenderPipeline2D - Package for immitating Lights and Shadows.
 * > New Unity InputSystem - Package for comfortable and flexible control of Inputs.
-
+* > Cinemachine - Package for Advanced Camera setup.
+* > TextMeshPRO - Package for Advanced Text setup. 
 
 ### Build and Deployment
 TODO: Document the build and deployment process for the project. Include steps, configurations, and any required tools or scripts.<br>
