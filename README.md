@@ -1,25 +1,33 @@
-# About-IndieDuck-Studio
- Quack-tastic Creations Unleashed: Embrace the Indie Spirit with Indie Duck Studio!
+<p align="center">
+  <img src="IndieDuck.jpg" alt="Logo" width="150" height="150">
+</p>
 
-IndieDuck Studio - is a dynamic and creative game development team
-                   that is passionate about creating unique and captivating
-                   gaming experiences. With a focus on indie game development,
-                   our talented team of developers, designers, and artists work 
-                   collaboratively to craft innovative and memorable games 
-                   that push the boundaries of creativity and gameplay. 
-                   From quirky and charming adventures to fast-paced action games, 
-                   IndieDuck Studio is committed to delivering high-quality games
-                   that captivate players and leave a lasting impression.
-                   Join us on our journey as we create exciting games 
-                   that bring joy to players around the world!
+<h2 align="center">Welcome to IndieDuck Studio!</h2>
+
+<p align="center"> <i><strong>Quack-tastic Creations Unleashed: Embrace the Indie Spirit with Indie Duck Studio!</strong></i> </p>
+ 
+<p align="center">
+        IndieDuck Studio - is a dynamic and creative game development team<br>
+        that is passionate about creating unique and captivating gaming experiences.<br>
+        With a focus on indie game development, our talented team of developers,<br>
+        designers, and artists work collaboratively to craft innovative and memorable games<br>
+        that push the boundaries of creativity and gameplay.<br>
+        From quirky and charming adventures to fast-paced action games,<br>
+        IndieDuck Studio is committed to delivering high-quality games<br>
+        that captivate players and leave a lasting impression.<br>
+        Join us on our journey as we create exciting games<br>
+        that bring joy to players around the world!<br>
+</p>
 
 # Project Documentation
 ## Overview
 Provide a brief overview of the project, its purpose, and goals. Explain the technologies and frameworks used in the development process.
 
-So this is the beginning of your journey in IndieDuck-Studio!
-Engine for Game Development is **Unity Engine**:
-C# (Dotnet) as default coding Conventions and Principles [Microsoft C# Documentation]([https://pages.github.com/](https://learn.microsoft.com/en-us/dotnet/csharp/))
+So this is the beginning of your journey in IndieDuck-Studio!<br>
+> IDE - **Optional**<br>
+> Framework - **Unity Engine**<br>
+> API's - **Unity API**<br>
+> Conventions and Principles - [Microsoft C# Documentation](https://learn.microsoft.com/en-us/dotnet/csharp/)<br>
 
 Coding Conventions
 Naming Conventions
