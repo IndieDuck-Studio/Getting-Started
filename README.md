@@ -123,15 +123,15 @@ what parameters they should provide, and what they can expect in return.**
 Document the design patterns utilized in the project, along with their purpose and usage. Include examples where appropriate. Some common design patterns used in C# projects are:<br>
 
 * > Singleton Pattern<br>
-<br>
+
 * > Factory Pattern<br>
-<br>
+
 * > Builder Pattern<br>
-<br>
+
 * > Observer Pattern<br>
-<br>
+
 * > Strategy Pattern<br>
-<br>
+
 * > Decorator Pattern<br>
 
 <br>
@@ -144,13 +144,13 @@ The design principles provide guidelines for creating well-structured and mainta
 Here are some key design principles to consider:<br>
 
 * > Keep the codebase clean and well-organized: Maintain a clean and organized codebase by following consistent naming conventions, proper indentation, and logical file and folder structures.<br>
-<br>
+
 * > Follow the SOLID principles: The SOLID principles are a set of guidelines that help in designing maintainable and flexible software. They include:<br>
-<br>
+
 * > Apply the DRY (Don't Repeat Yourself) principle: Avoid duplicating code or logic. Encourage modularization and reuse of common functionality to improve maintainability and reduce code duplication.<br>
-<br>
+
 * > Write clear and concise code: Use meaningful variable and function names that accurately describe their purpose and behavior. Write code that is easy to understand and read by other developers.<br>
-<br>
+
 * > Utilize object-oriented programming concepts: Apply object-oriented programming principles such as encapsulation, inheritance, and polymorphism to create modular and reusable code. Design classes and relationships that reflect real-world entities and their interactions.<br>
 
 <br>
@@ -159,13 +159,13 @@ Here are some key design principles to consider:<br>
 
 ### SOLID Principles
 * > Single Responsibility Principle (SRP): Each class or module should have only one reason to change.<br>
-<br>
+
 * > Open-Closed Principle (OCP): Software entities should be open for extension but closed for modification.<br>
-<br>
+
 * > Liskov Substitution Principle (LSP): Subtypes must be substitutable for their base types.<br>
-<br>
+
 * > Interface Segregation Principle (ISP): Clients should not be forced to depend on interfaces they do not use.<br>
-<br>
+
 * > Dependency Inversion Principle (DIP): High-level modules should not depend on low-level modules. Both should depend on abstractions.<br>
 
 <br>
@@ -194,9 +194,9 @@ A/B/C - Every level contains stuffs related to particular topic:<br>
 <br>
 
 * > A-Miscellaneous/: Contains ProjectPackages & Plugins & Development folders ( used for technical purposes ).<br>
-<br>
+
 * > B-Rendering/: Contains everything related to Graphics & Rendering & Textures.<br>
-<br>
+
 * > C-Game/: Contains core files of game itself, Scripts, Animations etc.<br>
 
 <br>
@@ -205,11 +205,11 @@ A/B/C - Every level contains stuffs related to particular topic:<br>
 
 ### Dependencies and Third-Party Libraries
 * > UniversalRenderPipeline2D - Package for immitating Lights and Shadows.
-<br>
+
 * > New Unity InputSystem - Package for comfortable and flexible control of Inputs.
-<br>
+
 * > Cinemachine - Package for Advanced Camera setup.
-<br>
+
 * > TextMeshPRO - Package for Advanced Text setup. 
 
 <br>
@@ -256,13 +256,13 @@ _1. Git Workflow:_<br>
    The Git workflow typically involves the following branches:<br>
    
    * > **Main/Branch**: The main branch represents the production-ready code. It should always contain stable and deployable code.<br>
-   <br>
+
    * > **Feature/Branch**: Feature branches are created for developing new features or making changes. These branches are created off the main branch.<br>
-   <br>
+
    * > **Bugfix/Branch**: Bugfix branches are used to fix issues or bugs found in the main branch or other feature branches.<br>
-   <br>
+
    * > **Release/Branch**: Release branches are created to prepare the codebase for a new release. They are used for finalizing and testing the code before it gets merged into the main branch.<br>
-   <br>
+
    * > **Hotfix/Branch**: Hotfix branches are created to quickly address critical issues in the production code. They are created off the main branch.<br>
 
 <br>
@@ -271,17 +271,17 @@ _1. Git Workflow:_<br>
    The general flow of the Git workflow follows these steps:<br>
    
    * > Create a feature/bugfix branch from the main branch.<br>
-   <br>
+
    * > Make changes, commit them locally.<br>
-   <br>
+
    * > Push the branch to the remote repository.<br>
-   <br>
+
    * > Open a pull request (PR) to merge the changes into the main branch.<br>
-   <br>
+
    * > Review the changes, address feedback, and iterate if necessary.<br>
-   <br>
+   
    * > Once the changes are approved, merge the branch into the main branch.<br>
-   <br>
+
    * > Delete the feature/bugfix branch.<br>
 
 <br>
@@ -291,11 +291,11 @@ _2. Branch Naming Conventions:_<br>
    Consistent branch naming conventions help in better organization and understanding of the codebase. Here are some commonly used conventions:<br>
    
    * > **Feature/Branch**: feature/{short-description}<br>
-   <br>
+
    * > **Bugfix/Branch**: bugfix/{short-description}<br>
-   <br>
+
    * > **Release/Branch**: release/{version-number}<br>
-   <br>
+
    * > **Hotfix/Branch**: hotfix/{short-description}<br>
 
    **NOTE: It's important to keep branch names descriptive and concise, conveying the purpose of the branch.**<br>
@@ -306,14 +306,13 @@ _3. Commit Message Guidelines:_<br>
    Well-written commit messages provide context and help in understanding the purpose of the changes. Here are some guidelines for writing commit messages:<br>
    
    * > Start with a capitalized, concise summary (e.g., "Add feature X" or "Fix issue Y").<br>
-   <br>
+
    * > Optionally, provide a more detailed description in the subsequent lines, if necessary.<br>
-   <br>
+
    * > Use present tense for the summary (e.g., "Fix" instead of "Fixed").<br>
-   <br>
+
    * > Use imperative mood (e.g., "Add," "Update," "Fix") for the summary.<br>
 
-   <br>
    **NOTE: It's important to write meaningful commit messages that capture the essence of the changes made in the commit.**<br>
 
 <br>
@@ -323,19 +322,22 @@ _4. Repository Management:_<br>
    Managing the repository effectively helps in maintaining a clean and organized codebase. Here are some best practices:
    
    * > Regularly review and clean up branches that are no longer needed.<br>
-   <br>
+
    * > Enforce code review processes to ensure quality and consistency.<br>
-   <br>
+
    * > Utilize issue tracking systems or project management tools to track tasks, bugs, and feature requests.<br>
-   <br>
+
    * > Define and enforce coding standards to maintain consistency across the codebase.<br>
-   <br>
+
    * > Use tags or releases to mark significant milestones or versions.<br>
 
-   <br>
    **NOTE: Repository management practices may vary depending on the specific tools and practices adopted by the team. It's important to establish clear guidelines and processes to ensure smooth collaboration and codebase maintenance.**<br>
 
-### Conclusion
+<br>
+<br>
+<br>
+
+## Conclusion
 In conclusion, IndieDuck Studio is a dynamic and creative game development team passionate about creating unique and captivating gaming experiences. They utilize the Unity Engine and Unity API for their projects and follow the coding conventions and design principles outlined in the Microsoft C# Documentation.<br>
 
 <br>
