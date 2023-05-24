@@ -150,7 +150,52 @@ To facilitate task management and streamline the development workflow, we utiliz
 TODO: Provide guidelines for maintaining the project, handling bug reports, and addressing support requests.<br>
 
 ### Version Control
-TODO: Explain the Git workflow used by the team, including branch naming conventions, commit message guidelines, and repository management.<br>
+The Git workflow used by a team can vary depending on their specific requirements and preferences. However, I can provide you with a commonly used Git workflow along with some best practices for branch naming conventions, commit message guidelines, and repository management. Let's dive into each aspect:<br>
+
+_1. Git Workflow:_<br>
+   The Git workflow typically involves the following branches:<br>
+   * > **Main/Branch**: The main branch represents the production-ready code. It should always contain stable and deployable code.<br>
+   * > **Feature/Branch**: Feature branches are created for developing new features or making changes. These branches are created off the main branch.<br>
+   * > **Bugfix/Branch**: Bugfix branches are used to fix issues or bugs found in the main branch or other feature branches.<br>
+   * > **Release/Branch**: Release branches are created to prepare the codebase for a new release. They are used for finalizing and testing the code before it gets merged into the main branch.<br>
+   * > **Hotfix/Branch**: Hotfix branches are created to quickly address critical issues in the production code. They are created off the main branch.<br>
+
+   `The general flow of the Git workflow follows these steps:`<br>
+   * > Create a feature/bugfix branch from the main branch.<br>
+   * > Make changes, commit them locally.<br>
+   * > Push the branch to the remote repository.<br>
+   * > Open a pull request (PR) to merge the changes into the main branch.<br>
+   * > Review the changes, address feedback, and iterate if necessary.<br>
+   * > Once the changes are approved, merge the branch into the main branch.<br>
+   * > Delete the feature/bugfix branch.<br>
+
+_2. Branch Naming Conventions:_<br>
+   Consistent branch naming conventions help in better organization and understanding of the codebase. Here are some commonly used conventions:<br>
+   * > **Feature/Branch**: feature/{short-description}<br>
+   * > **Bugfix/Branch**: bugfix/{short-description}<br>
+   * > **Release/Branch**: release/{version-number}<br>
+   * > **Hotfix/Branch**: hotfix/{short-description}<br>
+
+   **NOTE: It's important to keep branch names descriptive and concise, conveying the purpose of the branch.**<br>
+
+_3. Commit Message Guidelines:_<br>
+   Well-written commit messages provide context and help in understanding the purpose of the changes. Here are some guidelines for writing commit messages:<br>
+   * > Start with a capitalized, concise summary (e.g., "Add feature X" or "Fix issue Y").<br>
+   * > Optionally, provide a more detailed description in the subsequent lines, if necessary.<br>
+   * > Use present tense for the summary (e.g., "Fix" instead of "Fixed").<br>
+   * > Use imperative mood (e.g., "Add," "Update," "Fix") for the summary.<br>
+
+   **NOTE: It's important to write meaningful commit messages that capture the essence of the changes made in the commit.**<br>
+
+_4. Repository Management:_<br>
+   Managing the repository effectively helps in maintaining a clean and organized codebase. Here are some best practices:
+   * > Regularly review and clean up branches that are no longer needed.<br>
+   * > Enforce code review processes to ensure quality and consistency.<br>
+   * > Utilize issue tracking systems or project management tools to track tasks, bugs, and feature requests.<br>
+   * > Define and enforce coding standards to maintain consistency across the codebase.<br>
+   * > Use tags or releases to mark significant milestones or versions.<br>
+
+   **NOTE: Repository management practices may vary depending on the specific tools and practices adopted by the team. It's important to establish clear guidelines and processes to ensure smooth collaboration and codebase maintenance.**<br>
 
 ### Conclusion
 In conclusion, IndieDuck Studio is a dynamic and creative game development team passionate about creating unique and captivating gaming experiences. They utilize the Unity Engine and Unity API for their projects and follow the coding conventions and design principles outlined in the Microsoft C# Documentation.<br>
