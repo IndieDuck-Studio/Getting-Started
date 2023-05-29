@@ -28,6 +28,29 @@ In this introduction Wiki you are gonna learn everything you need to know to get
 > API's - **Unity API**<br>
 > Conventions and Principles - [Microsoft C# Documentation](https://learn.microsoft.com/en-us/dotnet/csharp/)<br>
 
+## Project Teamwork Explanation
+
+### Scenes
+When you want to work together on the same scene with another person, there is a recommended workflow to follow. By following this workflow, you can work on the same scene in Unity while minimizing conflicts and preserving the work done by each individual before merging the changes together. Here's an explanation of the process:<br>
+
+* > Discuss: To ensure effective collaboration and avoid conflicts in Unity when working on a scene, it's important to follow a clear communication and coordination process. By informing your team members about your intentions and timeline, you ensure transparency and avoid duplication of efforts or conflicting changes. This establishes a clear communication process within your team, allowing for better coordination and minimizing conflicts when working on scenes in Unity. Here's an improved explanation of the workflow:
+
+  * **Check Availability:** Before you begin working on a specific scene, first check if anyone else is already working on it. This can be done by communicating with your team members or checking project management tools. There are two possible scenarios:
+
+    * **Scenario 1:** If someone is already working on the scene, you have two options. You can either wait until they finish making their changes, or you can create a new scene based on the default template. In the latter case, you can implement your changes in the new scene and convert them into prefabs to be merged later.
+
+    * **Scenario 2:** If nobody is currently working on the scene, proceed to the next step.
+
+  * **Discuss with Team:** In this scenario, where nobody is currently working on the scene, it's important to communicate with your team members effectively. Use our Discord Server and go to the 'DEV-FRAMEWORK' category in the #dev-scene chat. Inform everyone about your plans for the scene and provide details on what you are trying to achieve and estimate the expected time duration for your work.
+
+* > Scene Copy: If you both want to work on the same scene simultaneously, each person should make a copy of the scene they want to work on. This ensures that you have separate versions of the scene to avoid conflicts when making changes.<br>
+
+* > Saving the Scene: After making a copy of the scene, each person should save their own version of the scene with a unique name or identifier. This step is important to differentiate between the different copies and prevent overwriting each other's work.<br>
+
+* > Collaboration: Now, you and the other person can work independently on your respective scene copies. Make the desired modifications, add new elements, or make any necessary changes.<br>
+
+* > Merge Changes: Once both of you have finished working on your individual copies of the scene, it is time to merge the changes together. This step is typically performed by a Project Manager or Scene Lead, who will compare the changes made by each person and combine them into a single, unified version of the scene.<br>
+
 ## Coding Conventions
 
 ### Naming Conventions
